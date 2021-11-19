@@ -1,0 +1,226 @@
+.flex {
+  display: flex;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexgrow1 {
+  flex-grow: 1;
+}
+
+html {
+  background-color: silver;
+  font-family: Irish Grover;
+}
+
+body {
+  width: 90rem;
+  margin-bottom: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0em;
+}
+
+header {
+  background-color: #384e26;
+}
+
+#logo_head {
+  margin: 1.5em;
+  margin-left: 3em;
+}
+
+#home_icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#home {
+  margin: 0em;
+}
+
+#menu {
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+  margin-left: 4em;
+  margin-right: 0em;
+  padding-right: 0em;
+}
+
+a {
+  margin-left: 1.5em;
+  margin-top: 0.25em;
+  color: #c4d7b6;
+  text-decoration-line: none;
+  
+}
+
+#inBusqueda {
+  position: relative;
+  width: 8.75rem;
+  height: 2.438rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 2em;
+  margin-left: 0em;
+  padding-left: 2.5em;
+  background-color: #384e26;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  border-color: #c4d7b6;
+  border-style: solid;
+  font-size: medium;
+  color: #c4d7b6;
+}
+
+#lupa {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  right: -12%;
+  top: 38%;
+  z-index: 100;
+}
+
+.foto_portada {
+  position: relative;
+  text-align: center;
+  display: flex;
+}
+
+#teatro {
+  filter: hue-rotate(233deg) contrast(60%) brightness(60%) blur(1px);
+}
+
+.titular_imagen {
+  position: absolute;
+  font-size: 4.5rem;
+  color: #c4d7b6;
+}
+
+.parrafo_imagen {
+  position: absolute;
+  font-size: 2.25rem;
+  color: #c4d7b6;
+}
+
+.posicion_titular {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.posicion_parrafo {
+  position: absolute;
+  width: 62.5rem;
+  height: 5.938rem;
+  left: 13.75rem;
+  top: 14.563rem;
+}
+
+#panel {
+  background-color: rgba(151, 173, 133, 0.7);
+  padding-bottom: 6em;
+}
+
+h1 {
+  text-align: center;
+  color: #384e26;
+  font-size: 2.25rem;
+}
+
+.categoria {
+  width: 23.063rem;
+  height: 20.729rem;
+  background: rgba(56, 78, 38, 0.8);
+  margin: 1em;
+  border-radius: 0.5rem;
+}
+
+.icono_categoria {
+  width: 4.5rem;
+  height: 4.429rem;
+  border-radius: 50%;
+  padding: 0em;
+  margin-top: 1.5em;
+  margin-left: 2em;
+}
+
+.texto_categoria {
+  width: 19.125rem;
+  height: 6.25rem;
+  color: #c4d7b6;
+  line-height: 1.188rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: 1em;
+  margin-top: 1.5em;
+}
+
+button {
+  width: 6.563rem;
+  height: 392.438rem, 2.313rem;
+  margin-top: 1em;
+  margin-left: 2em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  background-color: #c4d7b6;
+  color: #384e26;
+  font-family: Irish Grover;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border-style: none;
+  cursor:pointer;
+}
+
+footer {
+  background-color: #384e26;
+  padding: 1em;
+}
+
+#foot_logo {
+  width: 16.875rem;
+  height: 2.438rem;
+  padding: 1em;
+  margin: 0em;
+}
+
+#foot_mail {
+  width: 2.438rem;
+  height: 2.438rem;
+  margin-left: -1em;
+  margin-top: 1.25em;
+  
+}
+
+#foot_face {
+  width: 2.438rem;
+  height: 2.438rem;
+  margin: 0em;
+  margin-top: 1em;
+}
+
+#foot_twit {
+  width: 2.438rem;
+  height: 2.438rem;
+  margin: 0em;
+  margin-top: 1em;
+}
+
+#foot_insta {
+  width: 2.438rem;
+  height: 2.438rem;
+  margin: 0em;
+  margin-right:2em;
+  margin-top: 1em;
+}
